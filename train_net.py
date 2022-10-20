@@ -119,7 +119,7 @@ def main(args):
         
 if __name__ == '__main__':
     args = default_argument_parser().parse_args()
-    args.eval_only = True
+    # args.eval_only = True
     print("Command Line Args:", args)
     launch(
         main,
